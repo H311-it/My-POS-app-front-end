@@ -1,2 +1,2 @@
 # My-POS-app
-Lập trình My-Project. Phần mềm quản lý bán hàng
+Lập trình My-Project. Phần mềm quản lý bán hàng. Front-end
