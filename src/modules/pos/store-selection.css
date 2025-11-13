@@ -1,0 +1,71 @@
+.store-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.store-selection-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.store-selection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.store-card {
+  border-radius: 1rem;
+  border: 1px solid var(--color-border);
+  background: #ffffff;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.store-card header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.store-card h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.store-card small {
+  display: block;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+}
+
+.store-card .store-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.92rem;
+  color: var(--color-muted);
+}
+
+.store-card .store-meta strong {
+  color: var(--color-text);
+}
+
+.store-card .store-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .store-selection-grid {
+    grid-template-columns: 1fr;
+  }
+}

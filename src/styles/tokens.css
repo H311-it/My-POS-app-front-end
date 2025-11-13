@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #2563eb;
+  --color-sidebar: #0f172a;
+  --color-background: #f6f8fa;
+  --color-surface: #ffffff;
+  --color-border: #e2e8f0;
+  --color-muted: #64748b;
+  --color-text: #0f172a;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #3b82f6;
+  --font-display: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+}
